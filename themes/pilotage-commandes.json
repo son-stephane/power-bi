@@ -1,0 +1,35 @@
+{
+  "name": "Pilotage Commandes",
+  "dataColors": ["#0B6E6E","#5FA8A8","#C7DEDC","#B06A00","#2F7D4F","#B3261E","#4A5A5A","#8DA09D"],
+  "foreground": "#16211F",
+  "foregroundNeutralSecondary": "#5A6B69",
+  "background": "#FFFFFF",
+  "backgroundLight": "#F2F5F4",
+  "tableAccent": "#0B6E6E",
+  "good": "#2F7D4F",
+  "neutral": "#B06A00",
+  "bad": "#B3261E",
+  "textClasses": {
+    "title":   { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#16211F" },
+    "label":   { "fontFace": "Segoe UI",          "fontSize": 10, "color": "#5A6B69" },
+    "callout": { "fontFace": "Segoe UI Light",    "fontSize": 32, "color": "#16211F" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background":  [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border":      [{ "show": true, "color": { "solid": { "color": "#E1E7E6" } }, "radius": 8 }],
+        "dropShadow":  [{ "show": true, "preset": "BottomRight" }],
+        "title":       [{ "show": true, "alignment": "left", "fontSize": 12,
+                          "fontColor": { "solid": { "color": "#16211F" } } }],
+        "visualHeader":[{ "show": false }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F2F5F4" } }, "transparency": 0 }],
+        "outspace":   [{ "color": { "solid": { "color": "#F2F5F4" } }, "transparency": 0 }]
+      }
+    }
+  }
+}
